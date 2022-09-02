@@ -1,0 +1,23 @@
+.header {
+  position: static;
+  top: 0;
+  display: flex;
+  border-bottom: 1px black solid;
+  height: 12vh;
+}
+.headerIcon {
+  text-align: center;
+  width: 30%;
+}
+img {
+  height: 100%;
+}
+.navigation {
+  width: calc(100vw - 30%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navigation p {
+  padding: 1rem;
+}
