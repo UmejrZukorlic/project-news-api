@@ -40,3 +40,8 @@
   font-size: larger;
   background-color: rgb(233, 233, 233);
 }
+@media screen and (max-width: 600px) {
+  .headlineSection .newsCard {
+    width: 80%;
+  }
+}

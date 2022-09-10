@@ -18,6 +18,21 @@ img {
   justify-content: space-evenly;
   align-items: center;
 }
+.navigation .search {
+  display: flex;
+  align-items: center;
+}
+.navigation .search input {
+  height: 2em;
+  font-size: medium;
+  border: 1px solid black;
+  border-right: 0;
+}
+.navigation .search button {
+  height: 2.4em;
+  border: 1px solid black;
+  border-left: 0;
+}
 .navigation p {
   padding: 1rem;
 }

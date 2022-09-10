@@ -11,14 +11,13 @@ const Article = () => {
     <Layout>
       <div className="articleSection">
         <div className="photoWithLink">
-          <h2>Read on official page</h2>
-          <img
-            src={contextUse.sentNews.urlToImage}
-            alt="anithing"
+          <h2
             onClick={() => {
               window.open(contextUse.sentNews.url);
-            }}
-          />
+            }}>
+            Read on official page
+          </h2>
+          <img src={contextUse.sentNews.urlToImage} alt="anithing" />
         </div>
 
         <div className="articleDescription">

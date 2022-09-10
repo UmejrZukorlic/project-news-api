@@ -49,3 +49,9 @@
 .articleSection .articleDescription {
   text-align: center;
 }
+@media screen and (max-width: 600px) {
+  .articleSection .photoWithLink::after {
+    content: "Click on photo for official page ";
+    font-size: small;
+  }
+}
