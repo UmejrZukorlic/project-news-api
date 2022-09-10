@@ -18,3 +18,12 @@
   height: 50%;
   width: 35%;
 }
+@media screen and (max-width: 600px) {
+  .FooterSection .description {
+    font-size: small;
+  }
+  .FooterSection .SubscribeSection {
+    padding-top: 10%;
+    width: 20%;
+  }
+}
